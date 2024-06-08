@@ -19,7 +19,7 @@ brew install --cask font-fira-code
 # https://github.com/eza-community/eza/blob/main/INSTALL.md
 brew install eza
 
-# https://github.com/junegunn/fzf?tab=readme-ov-file#installation
+# https://github.com/junegunn/fzf?tab=readme-ov-file#installationc
 brew install fzf
 
 gcloud auth login

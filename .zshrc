@@ -18,9 +18,8 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 eval $(thefuck --alias)
 
 # Zoxide
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
-alias cd="z"
 alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git --colour always'
 alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
