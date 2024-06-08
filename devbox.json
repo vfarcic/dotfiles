@@ -8,14 +8,16 @@
     "google-cloud-sdk@478.0.0",
     "stow@2.4.0",
     "gh@2.50.0",
-    "gum@0.14.1"
+    "gum@0.14.1",
+    "eza@0.18.16"
   ],
   "shell": {
     "init_hook": [
       "alias cat='bat --paging never --theme DarkNeon --style plain'",
       "autoload -Uz compinit",
       "compinit",
-      "source <(kubectl completion zsh)"
+      "source <(kubectl completion zsh)",
+      "alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git --colour always'"
     ],
     "scripts": {}
   }
