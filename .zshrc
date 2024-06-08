@@ -12,8 +12,6 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 zstyle ':completion:*' menu yes select
-autoload -Uz compinit
-compinit
 
 source <(devbox completion zsh)
 
