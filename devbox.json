@@ -12,7 +12,8 @@
     "fzf@0.52.1",
     "jq@1.7.1",
     "yq-go@4.44.1",
-    "httpie@3.2.2"
+    "httpie@3.2.2",
+    "zoxide@0.9.4"
   ],
   "shell": {
     "init_hook": [
@@ -21,7 +22,9 @@
       "compinit",
       "source <(kubectl completion zsh)",
       "alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git --colour always'",
-      "alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'"
+      "alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'",
+      "eval \"$(zoxide init zsh)\"",
+      "alias cd=\"z\""
     ],
     "scripts": {}
   }

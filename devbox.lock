@@ -716,6 +716,54 @@
           "store_path": "/nix/store/lq5kcj0059n9ig591s32fpc1pbfjrsa4-yq-go-4.44.1"
         }
       }
+    },
+    "zoxide@0.9.4": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#zoxide",
+      "source": "devbox-search",
+      "version": "0.9.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l8kkmrwd7n443hz2nh6619hzxx4m2zk9-zoxide-0.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l8kkmrwd7n443hz2nh6619hzxx4m2zk9-zoxide-0.9.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v2xsv1a91z7xm3klvkhii92690k6mhh1-zoxide-0.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v2xsv1a91z7xm3klvkhii92690k6mhh1-zoxide-0.9.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x25lhy62kwc167i8gqax2f42prgwfy9p-zoxide-0.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x25lhy62kwc167i8gqax2f42prgwfy9p-zoxide-0.9.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/azpqwyw4bmgzxwb33nm0jg2iwz3yaqd2-zoxide-0.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/azpqwyw4bmgzxwb33nm0jg2iwz3yaqd2-zoxide-0.9.4"
+        }
+      }
     }
   }
 }

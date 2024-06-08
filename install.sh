@@ -16,6 +16,12 @@ brew install thefuck
 # https://github.com/tonsky/FiraCode/wiki/Installing
 brew install --cask font-fira-code
 
+# https://github.com/eza-community/eza/blob/main/INSTALL.md
+brew install eza
+
+# https://github.com/junegunn/fzf?tab=readme-ov-file#installation
+brew install fzf
+
 gcloud auth login
 
 eval "$(teller sh)"
