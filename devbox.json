@@ -7,7 +7,8 @@
     "path:gcloud#google-cloud-sdk",
     "google-cloud-sdk@478.0.0",
     "stow@2.4.0",
-    "gh@2.50.0"
+    "gh@2.50.0",
+    "gum@0.14.1"
   ],
   "shell": {
     "init_hook": [

@@ -10,6 +10,9 @@ brew install zsh-history-substring-search
 # https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 brew install zsh-syntax-highlighting
 
+# https://github.com/tonsky/FiraCode/wiki/Installing
+brew install --cask font-fira-code
+
 gcloud auth login
 
 eval "$(teller sh)"
@@ -21,3 +24,6 @@ AZURE_OPENAI_MODEL=$AZURE_OPENAI_MODEL
 AZURE_OPENAI_API_KEY=$AZURE_OPENAI_API_KEY
 YOUTUBE_API_KEY=$YOUTUBE_API_KEY
 " > .config/fabric/.env
+
+echo "## Follow the instructions at https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions to enable Fira Code in VS Code" \
+    | gum format

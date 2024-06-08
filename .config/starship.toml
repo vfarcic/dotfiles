@@ -14,12 +14,10 @@ min_time = 5000
 format = 'underwent [$duration](bold yellow)'
 
 [aws]
-symbol = '🅰 '
 disabled = true
 
 [azure]
 format = 'on [$symbol($subscription)]($style) '
-symbol = '󰠅 '
 disabled = true
 
 [gcloud]
@@ -29,12 +27,10 @@ disabled = true
 truncate_to_repo = true
 
 [docker_context]
-symbol = " "
 disabled = true
 
 [git_branch]
 ignore_branches = ['master', 'main']
-symbol = " "
 
 [git_status]
 conflicted = '🏳'
