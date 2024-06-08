@@ -1,0 +1,23 @@
+# https://starship.rs/guide/#%F0%9F%9A%80-installation
+brew install starship
+
+# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+brew install zsh-autosuggestions
+
+# https://github.com/zsh-users/zsh-history-substring-search
+brew install zsh-history-substring-search
+
+# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+brew install zsh-syntax-highlighting
+
+gcloud auth login
+
+eval "$(teller sh)"
+
+echo "
+AZURE_OPENAI_API_VERSION=2024-02-01
+AZURE_OPENAI_ENDPOINT=$AZURE_OPENAI_ENDPOINT
+AZURE_OPENAI_MODEL=$AZURE_OPENAI_MODEL
+AZURE_OPENAI_API_KEY=$AZURE_OPENAI_API_KEY
+YOUTUBE_API_KEY=$YOUTUBE_API_KEY
+" > .config/fabric/.env

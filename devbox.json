@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+  "packages": [
+    "bat@0.24.0",
+    "kind@0.23.0",
+    "teller@1.5.6",
+    "path:gcloud#google-cloud-sdk",
+    "google-cloud-sdk@478.0.0",
+    "stow@2.4.0",
+    "gh@2.50.0"
+  ],
+  "shell": {
+    "init_hook": [
+      "alias cat='bat --paging never --theme DarkNeon --style plain'",
+      "autoload -Uz compinit",
+      "compinit",
+      "source <(kubectl completion zsh)"
+    ],
+    "scripts": {}
+  }
+}
