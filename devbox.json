@@ -1,15 +1,18 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
   "packages": [
-    "bat@0.24.0",
     "kind@0.23.0",
-    "teller@1.5.6",
-    "path:gcloud#google-cloud-sdk",
     "google-cloud-sdk@478.0.0",
+    "gum@0.14.1",
+    "teller@1.5.6",
+    "bat@0.24.0",
     "stow@2.4.0",
     "gh@2.50.0",
-    "gum@0.14.1",
-    "eza@0.18.16"
+    "eza@0.18.16",
+    "fzf@0.52.1",
+    "jq@1.7.1",
+    "yq-go@4.44.1",
+    "httpie@3.2.2"
   ],
   "shell": {
     "init_hook": [
@@ -17,7 +20,8 @@
       "autoload -Uz compinit",
       "compinit",
       "source <(kubectl completion zsh)",
-      "alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git --colour always'"
+      "alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git --colour always'",
+      "alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'"
     ],
     "scripts": {}
   }

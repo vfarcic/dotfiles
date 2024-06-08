@@ -10,6 +10,9 @@ brew install zsh-history-substring-search
 # https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 brew install zsh-syntax-highlighting
 
+# https://github.com/nvbn/thefuck?tab=readme-ov-file#installation
+brew install thefuck
+
 # https://github.com/tonsky/FiraCode/wiki/Installing
 brew install --cask font-fira-code
 
