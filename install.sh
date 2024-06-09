@@ -27,15 +27,7 @@ brew install zoxide
 
 gcloud auth login
 
-eval "$(teller sh)"
-
-echo "
-AZURE_OPENAI_API_VERSION=2024-02-01
-AZURE_OPENAI_ENDPOINT=$AZURE_OPENAI_ENDPOINT
-AZURE_OPENAI_MODEL=$AZURE_OPENAI_MODEL
-AZURE_OPENAI_API_KEY=$AZURE_OPENAI_API_KEY
-YOUTUBE_API_KEY=$YOUTUBE_API_KEY
-" > .config/fabric/.env
+teller env >.config/fabric/.env
 
 stow .
 

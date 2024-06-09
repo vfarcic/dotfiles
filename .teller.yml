@@ -2,6 +2,8 @@ project: dot
 providers:
   google_secretmanager:
     env:
+      AZURE_OPENAI_API_VERSION:
+        path: projects/vfarcic/secrets/azure-openai-api-version/versions/1
       AZURE_OPENAI_ENDPOINT:
         path: projects/vfarcic/secrets/azure-openai-endpoint/versions/2
       AZURE_OPENAI_API_KEY:
