@@ -22,6 +22,9 @@ brew install eza
 # https://github.com/junegunn/fzf?tab=readme-ov-file#installationc
 brew install fzf
 
+# https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation
+brew install zoxide
+
 gcloud auth login
 
 eval "$(teller sh)"
