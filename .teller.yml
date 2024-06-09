@@ -3,10 +3,10 @@ providers:
   google_secretmanager:
     env:
       AZURE_OPENAI_ENDPOINT:
-        path: projects/vfarcic/secrets/azure-openai-endpoint/versions/1
+        path: projects/vfarcic/secrets/azure-openai-endpoint/versions/2
       AZURE_OPENAI_API_KEY:
         path: projects/vfarcic/secrets/azure-openai-key/versions/2
       AZURE_OPENAI_MODEL:
-        path: projects/vfarcic/secrets/azure-openai-model/versions/1
+        path: projects/vfarcic/secrets/azure-openai-model/versions/2
       YOUTUBE_API_KEY:
         path: projects/vfarcic/secrets/youtube-api-key/versions/1

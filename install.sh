@@ -13,7 +13,7 @@ brew install zsh-syntax-highlighting
 # https://github.com/nvbn/thefuck?tab=readme-ov-file#installation
 brew install thefuck
 
-# https://github.com/tonsky/FiraCode/wiki/Installing
+# https://github.com/tonsky/FiraCode/wiki/Installing
 brew install --cask font-fira-code
 
 # https://github.com/eza-community/eza/blob/main/INSTALL.md
@@ -33,6 +33,8 @@ AZURE_OPENAI_MODEL=$AZURE_OPENAI_MODEL
 AZURE_OPENAI_API_KEY=$AZURE_OPENAI_API_KEY
 YOUTUBE_API_KEY=$YOUTUBE_API_KEY
 " > .config/fabric/.env
+
+stow .
 
 echo "## Follow the instructions at https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions to enable Fira Code in VS Code" \
     | gum format
