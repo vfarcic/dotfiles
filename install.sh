@@ -25,6 +25,9 @@ brew install fzf
 # https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation
 brew install zoxide
 
+# https://github.com/sharkdp/bat
+brew install bat
+
 gcloud auth login
 
 teller env >.config/fabric/.env
