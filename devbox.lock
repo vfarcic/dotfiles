@@ -329,70 +329,6 @@
         }
       }
     },
-    "httpie@3.2.2": {
-      "last_modified": "2024-05-26T09:30:02Z",
-      "resolved": "github:NixOS/nixpkgs/e2dd4e18cc1c7314e24154331bae07df76eb582f#httpie",
-      "source": "devbox-search",
-      "version": "3.2.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/yk62sw98h553q66776s6597whsiff6bw-python3.11-httpie-3.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/y92mzflc5vmxi2b9s8jjvcj8zzjirykl-python3.11-httpie-3.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/yk62sw98h553q66776s6597whsiff6bw-python3.11-httpie-3.2.2"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/7mqr6w9aypjh8aa3nx7r5ak4ngsnlcn1-python3.11-httpie-3.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/vjaknah4z7w7hyn3im9fjqpiapl8fwzb-python3.11-httpie-3.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/7mqr6w9aypjh8aa3nx7r5ak4ngsnlcn1-python3.11-httpie-3.2.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/809zjq6dw95amwr30kwzzq824b0bpxkm-python3.11-httpie-3.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/9z3il313ssqk6sk99gn94iz7f8v81qja-python3.11-httpie-3.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/809zjq6dw95amwr30kwzzq824b0bpxkm-python3.11-httpie-3.2.2"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/430sv6ciz6i1g1rgxdq3h91j95szqki1-python3.11-httpie-3.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/0l8nz6n5ia3r6h23c9p5afv4n23jq2pc-python3.11-httpie-3.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/430sv6ciz6i1g1rgxdq3h91j95szqki1-python3.11-httpie-3.2.2"
-        }
-      }
-    },
     "jq@1.7.1": {
       "last_modified": "2024-06-03T15:57:46Z",
       "resolved": "github:NixOS/nixpkgs/d125f0e4d85f1517b639d4a8f848175da46fcd3e#jq",
@@ -666,6 +602,70 @@
             }
           ],
           "store_path": "/nix/store/2r6xiywzp38nbw6vay8r4y6fy2wn2d27-teller-1.5.6"
+        }
+      }
+    },
+    "thefuck@3.32": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#thefuck",
+      "source": "devbox-search",
+      "version": "3.32",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hynlvz583gmxdh4dzk4273vk9x6nmxmp-thefuck-3.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/lwyn10pg0vpvvd7sy0n9lbyg4b63k1xh-thefuck-3.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/hynlvz583gmxdh4dzk4273vk9x6nmxmp-thefuck-3.32"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lpyk95pz35ms0cim0sb95a5dqqg7879s-thefuck-3.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/ifknx7w26y9j54brdhih3jmlapqymh8w-thefuck-3.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/lpyk95pz35ms0cim0sb95a5dqqg7879s-thefuck-3.32"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a1kjsycak2a6zib9pakjn6dygzikznra-thefuck-3.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/lanl35v5l8zr38fishpncpm3px9cpc0p-thefuck-3.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/a1kjsycak2a6zib9pakjn6dygzikznra-thefuck-3.32"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qzl6kypm98l0i9lh6jifsssxiks2cg5d-thefuck-3.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/gmbyl1j6bcs5zlrp4m3frv09mx690f2q-thefuck-3.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/qzl6kypm98l0i9lh6jifsssxiks2cg5d-thefuck-3.32"
         }
       }
     },

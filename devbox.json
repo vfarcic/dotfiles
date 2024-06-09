@@ -12,8 +12,8 @@
     "fzf@0.52.1",
     "jq@1.7.1",
     "yq-go@4.44.1",
-    "httpie@3.2.2",
-    "zoxide@0.9.4"
+    "zoxide@0.9.4",
+    "thefuck@3.32"
   ],
   "shell": {
     "init_hook": [
