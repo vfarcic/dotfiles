@@ -1,6 +1,8 @@
 autoload -Uz compinit
 compinit
 
+setopt HIST_IGNORE_ALL_DUPS
+
 # Devbox
 DEVBOX_NO_PROMPT=true
 
