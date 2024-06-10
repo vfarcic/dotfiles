@@ -23,13 +23,5 @@ brew install zoxide
 # https://github.com/sharkdp/bat
 brew install bat
 
-gcloud auth login
-
-teller env >.config/fabric/.env
-
-stow .
-
-source .zshrc
-
-echo "## Follow the instructions at https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions to enable Fira Code in VS Code" \
-    | gum format
+# https://www.jetify.com/devbox/docs/installing_devbox/
+curl -fsSL https://get.jetify.com/devbox | bash

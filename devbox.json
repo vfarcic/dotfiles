@@ -5,26 +5,17 @@
     "google-cloud-sdk@478.0.0",
     "gum@0.14.1",
     "teller@1.5.6",
-    "bat@0.24.0",
     "stow@2.4.0",
     "gh@2.50.0",
-    "eza@0.18.16",
-    "fzf@0.52.1",
     "jq@1.7.1",
     "yq-go@4.44.1",
-    "zoxide@0.9.4",
-    "thefuck@3.32",
     "kubectl@1.30.1"
   ],
   "shell": {
     "init_hook": [
-      "alias cat='bat --paging never --theme DarkNeon --style plain'",
       "autoload -Uz compinit",
       "compinit",
       "source <(kubectl completion zsh)",
-      "alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git'",
-      "alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'",
-      "eval \"$(zoxide init --cmd cd zsh)\""
     ],
     "scripts": {}
   }
