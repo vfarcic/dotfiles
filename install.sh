@@ -1,14 +1,9 @@
 # https://starship.rs/guide/#%F0%9F%9A%80-installation
 brew install starship
 
-# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-brew install zsh-autosuggestions
-
-# https://github.com/zsh-users/zsh-history-substring-search
-brew install zsh-history-substring-search
-
-# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-brew install zsh-syntax-highlighting
+# https://github.com/zdharma-continuum/zinit?tab=readme-ov-file#install
+bash -c "$(curl --fail --show-error --silent \
+    --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 # https://github.com/nvbn/thefuck?tab=readme-ov-file#installation
 brew install thefuck
@@ -33,6 +28,8 @@ gcloud auth login
 teller env >.config/fabric/.env
 
 stow .
+
+source .zshrc
 
 echo "## Follow the instructions at https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions to enable Fira Code in VS Code" \
     | gum format
