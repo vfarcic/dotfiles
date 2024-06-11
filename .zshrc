@@ -54,3 +54,6 @@ zinit light zsh-users/zsh-syntax-highlighting
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 zstyle ':completion:*' menu yes select
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"

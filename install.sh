@@ -1,3 +1,5 @@
+brew install font-fira-code-nerd-font
+
 # https://starship.rs/guide/#%F0%9F%9A%80-installation
 brew install starship
 
