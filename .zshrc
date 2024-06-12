@@ -23,7 +23,7 @@ eval $(thefuck --alias)
 eval "$(zoxide init --cmd cd zsh)"
 
 # Aliases
-alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git'
+alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time'
 alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
 alias cat='bat --paging never --theme DarkNeon --style plain'
 
