@@ -6,6 +6,9 @@ setopt HIST_IGNORE_ALL_DUPS
 # Devbox
 DEVBOX_NO_PROMPT=true
 
+# Git
+LANG=en_US.UTF-8
+
 # Completions
 source <(devbox completion zsh)
 source <(docker completion zsh)

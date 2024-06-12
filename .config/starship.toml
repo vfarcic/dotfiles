@@ -51,11 +51,12 @@ disabled = true
 
 [kubernetes]
 disabled = false
+style = 'bold yellow'
 
 [nix_shell]
 disabled = false
 impure_msg = 'devbox'
-format = 'via [$symbol$state](bold blue) '
+format = 'via [$symbol$state](bold purple) '
 
 [sudo]
 disabled = false
