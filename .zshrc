@@ -61,3 +61,7 @@ zstyle ':completion:*' menu yes select
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git'
+alias cat='bat --paging never --theme DarkNeon --style plain'
+alias fzfp='fzf --preview "bat --style numbers --color always {}"'
+alias fzfp='fzf --preview "bat --style numbers --color always {}"'
