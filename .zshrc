@@ -22,12 +22,6 @@ eval $(thefuck --alias)
 # Zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
-# Aliases
-alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time'
-alias lst='eza --long --all --no-permissions --no-filesize --no-user --sort modified'
-alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
-alias cat='bat --paging never --theme DarkNeon --style plain'
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -59,9 +53,8 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 zstyle ':completion:*' menu yes select
 
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --git'
+# Aliases
+alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time'
+alias lst='eza --long --all --no-permissions --no-filesize --no-user --sort modified'
+alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
 alias cat='bat --paging never --theme DarkNeon --style plain'
-alias fzfp='fzf --preview "bat --style numbers --color always {}"'
-alias fzfp='fzf --preview "bat --style numbers --color always {}"'
