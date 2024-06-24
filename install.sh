@@ -25,5 +25,8 @@ brew install zoxide
 # https://github.com/sharkdp/bat
 brew install bat
 
+# https://www.kcl-lang.io/docs/user_docs/getting-started/install#homebrew-macos-1
+brew install kcl-lang/tap/kcl-lsp
+
 # https://www.jetify.com/devbox/docs/installing_devbox/
 curl -fsSL https://get.jetify.com/devbox | bash

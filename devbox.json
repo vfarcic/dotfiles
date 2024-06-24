@@ -15,7 +15,7 @@
     "init_hook": [
       "autoload -Uz compinit",
       "compinit",
-      "source <(kubectl completion zsh)",
+      "source <(kubectl completion zsh)"
     ],
     "scripts": {}
   }
