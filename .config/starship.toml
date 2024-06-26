@@ -51,7 +51,6 @@ disabled = true
 
 [kubernetes]
 disabled = false
-style = 'bold yellow'
 
 [nix_shell]
 disabled = false
