@@ -30,3 +30,9 @@ brew install kcl-lang/tap/kcl-lsp
 
 # https://www.jetify.com/devbox/docs/installing_devbox/
 curl -fsSL https://get.jetify.com/devbox | bash
+
+# https://obsproject.com/kb/mac-installation#homebrew
+brew install --cask obs
+
+# https://cli.github.com/
+brew install gh
