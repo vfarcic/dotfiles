@@ -5,6 +5,7 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # Devbox
 DEVBOX_NO_PROMPT=true
+eval "$(devbox global shellenv --init-hook)"
 
 # Git
 LANG=en_US.UTF-8
