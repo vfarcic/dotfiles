@@ -52,6 +52,10 @@ disabled = true
 [kubernetes]
 disabled = false
 
+[shell]
+disabled = false
+zsh_indicator = ""
+
 [nix_shell]
 disabled = false
 impure_msg = 'devbox'
