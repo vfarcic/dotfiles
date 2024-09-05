@@ -63,3 +63,6 @@ format = 'via [$symbol$state](bold purple) '
 
 [sudo]
 disabled = false
+
+[nodejs]
+disabled = true
