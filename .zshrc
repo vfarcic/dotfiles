@@ -60,6 +60,7 @@ alias ls='eza --long --all --no-permissions --no-filesize --no-user --no-time --
 alias lst='eza --long --all --no-permissions --no-filesize --no-user --git --sort modified'
 alias fzfp='fzf --preview \"bat --style numbers --color always {}\"'
 alias cat='bat --paging never --theme DarkNeon --style plain'
+alias kubectl='kubecolor'
 
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"

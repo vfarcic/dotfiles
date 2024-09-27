@@ -15,3 +15,6 @@ curl -fsSL https://get.jetify.com/devbox | bash
 
 # https://obsproject.com/kb/mac-installation#homebrew
 brew install --cask obs
+
+# https://github.com/hidetatz/kubecolor
+brew install kubecolor
