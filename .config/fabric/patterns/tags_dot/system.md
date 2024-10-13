@@ -6,7 +6,7 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 # OUTPUT SECTIONS
 
-- Output text with comma seararated tag TAGS:.
+- Output text of up to 400 characters with comma separated tags TAGS:.
 
 # OUTPUT INSTRUCTIONS
 

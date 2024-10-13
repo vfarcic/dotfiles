@@ -39,15 +39,15 @@ analyze_prose
 analyze_prose_json
 agility_story
 compare_and_contrast
-improve_writing
 analyze_incident
+improve_writing
 rate_value
-extract_article_wisdom
 extract_article_wisdom/dmiessler/extract_wisdom-1.0.0
+extract_article_wisdom
 analyze_threat_report
 analyze_threat_report/dmiessler/extract_wisdom-1.0.0
-analyze_threat_report_trends
 analyze_threat_report_trends/dmiessler/extract_wisdom-1.0.0
+analyze_threat_report_trends
 create_video_chapters
 create_command
 find_hidden_message
@@ -68,8 +68,8 @@ extract_main_idea
 improve_academic_writing
 create_network_threat_landscape
 write_pull-request
-create_summary
 create_summary/dmiessler/summarize
+create_summary
 create_micro_summary
 explain_project
 create_academic_paper
@@ -80,8 +80,8 @@ extract_book_ideas
 extract_book_recommendations
 create_reading_plan
 write_micro_essay
-create_report_finding
 improve_report_finding
+create_report_finding
 analyze_prose_pinker
 find_logical_fallacies
 to_flashcards
@@ -173,3 +173,6 @@ extract_skills
 extract_insights_dm
 raycast
 write_latex
+analyze_military_strategy
+extract_primary_solution
+extract_product_features
