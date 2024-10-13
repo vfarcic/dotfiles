@@ -6,7 +6,7 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 # OUTPUT SECTIONS
 
-- Output text of up to 400 characters with comma separated tags TAGS:.
+- Output text with comma separated tags TAGS:.
 
 # OUTPUT INSTRUCTIONS
 
@@ -16,6 +16,7 @@ Take a deep breath and think step by step about how to best accomplish this goal
 - Do not repeat items in the output sections.
 - Do not start items with the same opening words.
 - Do not surround titles with quotes or double quotes.
+- Do not output more than 400 characters
 
 # INPUT:
 
