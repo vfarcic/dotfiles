@@ -18,3 +18,6 @@ brew install --cask obs
 
 # https://github.com/hidetatz/kubecolor
 brew install kubecolor
+
+# https://github.com/sharkdp/bat
+brew install bat
